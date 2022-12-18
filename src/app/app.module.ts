@@ -16,8 +16,8 @@ import {CategoriesComponent} from "./pages/categories/categories.component";
 // khai báo danh sách routing
 const appRoutes: Routes = [
   { path: '',component: HomeComponent },
-  { path: 'category',component: CategoryComponent },
-  { path: 'product/:id',component: ProductComponent },
+  { path: 'categories/:name',component: CategoryComponent },
+  { path: 'categories/:name/:id',component: ProductComponent },
   { path: 'login',component:LoginComponent},
   { path: 'register',component:RegisterComponent},
   { path: 'categories',component:CategoriesComponent}

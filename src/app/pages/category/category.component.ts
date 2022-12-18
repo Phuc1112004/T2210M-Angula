@@ -7,7 +7,7 @@ import {HttpClient} from "@angular/common/http";
 })
 export class CategoryComponent{
   products:any = [];
-  limit:number=10;
+  limit:number=5;
   constructor(private http:HttpClient) {
   }
   ngOnInit(){
